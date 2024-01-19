@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html><head>
+  <title>paint amount</title>
+  <link rel="stylesheet" href="p.css">
+<script src="thecal.js"></script>
+</head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+    <h2>Paint Calculator</h2>
+    <label>Wall Width:</label>
+    <input type="number" id="widthInput" required><br>
+  
+    <label>Wall Length:</label>
+    <input type="number" id="lengthInput" required><br>
+  
+    <label>Number of Windows:</label>
+    <input type="number" id="windowsInput" step="1" value="0"><br>
+  
+    <label>Number of Doors:</label>
+    <input type="number" id="doorsInput" step="1" value="0"><br>
+  
+    <button class="calculateButton">Calculate</button>
+  
+    <p id="paintAmount"></p>
+  </div>
+  </body>
+</html>

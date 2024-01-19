@@ -1,0 +1,512 @@
+
+
+
+html, body{
+  height:100%;
+  padding: 0px;
+  margin:0px;
+  font-family: "Lora", serif;
+  background:rgba(210, 233, 247, 0.971);
+  ;
+  }
+.first{
+ width: 100%; 
+height: 460px; 
+background-image: url('paintt.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.first .ftext{
+  text-align: center;
+   color:white; 
+   padding-top: 140px; 
+   font-size: 80px;
+ 
+}
+
+   .Services{
+    margin: 40px;
+    padding-left: 45px;
+    padding-bottom: 38px;
+    height: 700px;
+    padding-top: 40px;
+    background: white;
+    background-size: contain;
+   }
+
+   .Services .ps{
+    font-size: 17px;
+   }
+h1,h2, h3, h4, h5, h6{
+  font-family: 'Candal', serif;
+}
+a{
+
+  text-decoration:none ;
+  color: white;
+}
+.clearfix::after{
+
+content:'';
+display:block;
+clear:both;
+
+}
+.btn{
+  padding: .5rem 1rem;
+  background-color: #13a6c7;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  
+}
+
+.text-input{
+  padding:.7rem 1rem;
+  display: block;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #1f1e1e;
+  outline:none;
+  color: #444;
+  line-height: 1.5rem;
+  font-size: 1.2em;
+  font-family: 'lora',serif;
+  background-color:rgba(158, 139, 139, 0.984);
+
+
+}
+header{
+  background-color:rgb(68, 119, 133);
+  height: 66px;
+  margin-bottom:0px;
+}
+header *{
+  color: white;
+}
+header .logo{
+ float: left;
+ height: inherit;
+ margin-left: 2em;
+
+}
+header .logo-text{
+  margin:9px;
+  font-family:"Candal", serif;
+}
+header .logo-text span{
+  color:#9edcea ;
+}
+header ul{
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+
+}
+
+header ul li{
+  float: left;
+  position: relative;
+}
+header ul li a{
+  display:block;
+  padding: 21px;
+  font: size 1.1em;
+  text-decoration: none;
+}
+header ul li a:hover {
+  background: #acc5d4;
+  transition: 0.5s;
+}
+header .menu-toggle{
+  display:none;
+}
+.post-wrapper {
+  min-height: 100%;
+}
+.post-wrapper a:hover{
+  color: #8a9dc0;
+
+}
+.post-slider{
+  position: relative;
+}
+.post-slider .next{
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  font-size:2em;
+  color: rgb(41, 138, 167);
+  cursor: pointer;
+
+}
+.post-slider .prev{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 2em;
+  color: rgb(41,138,167);
+  cursor: pointer;
+
+}
+
+.post-slider .post-wrapper{
+  width:84%;
+  height:350px;
+  margin: 0px auto;
+  overflow:hidden;
+
+  padding: 10px 0px 10px 0px;
+
+}
+.post-slider .post-wrapper .post{
+  width: 300px;
+  height: 330px;
+  margin: 0px 10px;
+  display:inline-block;
+  background: rgb(62, 93, 102);
+  
+  border-radius: 5px;
+  box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+
+}
+.post-slider .post-wrapper .post .bergandy-img{
+  width: 100%;
+  height: 280px;
+  border-top-left-radius:5px ;
+  border-top-right-radius: 5px;
+
+
+}
+.post-slider .post-wrapper .post .bergandy{
+  height: 30;
+  color: inherit;
+  margin-left: 30%;
+  
+}
+.content{
+
+  width:90%;
+  margin:30px auto 30px;
+
+}
+.content .bedroom{
+  width:68%;
+  float: left;
+ 
+}
+.content .bedroom .post{
+
+  width:95%;
+  height:240px;
+  margin:20px auto;
+  border-radius: 5px;
+  background: white;
+
+}
+.content .bedroom .post .post-info{
+  padding:10px;
+  width: 56%;
+  float:right;
+
+}
+.content .bedroom .post .post-image{
+
+  width:34% ;
+  height: 100%;
+  float: left;
+
+}
+.content .bedroom .kicthen{
+  width:100%;
+  float: left;
+  
+
+
+
+}
+.content .bedroom .kicthen .post{
+
+  width:95%;
+  height:240px;
+  margin:20px auto;
+  border-radius: 5px;
+  background: white;
+
+}
+.content .bedroom .kicthen .post .post-info{
+  padding:10px;
+  width: 56%;
+  float:right;
+
+}
+.content .bedroom .kicthen .post .post-image{
+
+  width:34% ;
+  height: 100%;
+  float: left;
+
+}
+.content .bedroom .office{
+  width:100%;
+  float: left;
+}
+.content .bedroom .office .post{
+
+  width:95%;
+  height:240px;
+  margin:20px auto;
+  border-radius: 5px;
+  background: white;
+
+}
+.content .bedroom .office .post .post-info{
+  padding:10px;
+  width: 56%;
+  float:right;
+
+}
+.content  .bedroom .office .post .post-image{
+
+  width:34% ;
+  height: 100%;
+  float: left;
+
+}
+
+.content .sidebar{
+  width:30%;
+  float: right;
+  border: 8px rgb(93, 53, 53) solid;
+  padding-top: 1px;
+
+
+
+}
+.content .sidebar .calinfo{
+
+  width:95%;
+  height:240px;
+  margin:20px auto;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 200px;
+  
+}
+.cont .cali{
+  border:none;
+  background-color:black;
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-bottom: 22px;
+}
+.cont {
+  max-width:400px;
+  margin-top:50px;
+  margin-left:100px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  height: 510px;
+  border: 3px solid rgb(104, 97, 87);
+ padding: 16px;
+
+}
+.cont .cah{
+  max-width: 56px;
+  margin-top:50px;
+  margin-left:90px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #563d3d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 11px;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+.footer{
+  background:  #303036;;
+  color: #d3d3d3;
+  height: 360px;
+  position: relative;
+
+  
+}
+.footer .f-content{
+ 
+  height:320px;
+  display: flex;
+  
+}
+.footer .f-content .f-section{
+  flex: 1;
+  padding:37px;
+
+
+}
+.footer .f-content h1,
+.footer .f-content h2{
+  color: white;
+
+}
+.footer .f-content .about h1 span{
+  color:#05f7ff;
+}
+.footer .f-content .about .contact span{
+  display: block;
+  font-size: 1.1em;
+  margin-bottom:8px;
+
+}
+.footer .f-content .about .socials a{
+  border:1px solid grey;
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+display:inline-block;
+font-size: 1.3em;
+border-radius:5px;
+}
+.footer .f-content .contact-form .contact-input{
+  background:#272727;
+  color:#bebdbd;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+  padding: .7rem 1.2rem;
+  border: none;
+
+
+}
+.footer .f-content .contact-form .contact-input:focus{
+  background: #1a1a1a;
+
+}
+.footer .f-bottom{
+  background: #343a40;
+ color:#686868 ;
+ height:29px;
+ width:100%;
+ text-align: center;
+ position:absolute;
+ bottom: 0px;
+ left: 0px;
+ padding-top: 17px; 
+
+
+}
+.Services{
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: auto;
+
+ }
+@media only screen and (max-width:855px){
+  .content{
+
+    width:100%;
+ 
+  }
+  
+  .content .bedroom{
+    width:100%;
+  
+    
+  }
+ 
+  
+  .content .sidebar {
+    width:100%;
+    padding: 8px;
+  
+  }
+  .content .sidebar .calinfo{
+
+    width:100%;
+    padding: 8px;
+
+  }
+  .footer{
+   
+    height: auto;
+   
+  }
+  .footer .f-content{
+   
+    height:auto;
+    flex-direction: column;
+    
+
+  
+
+}
+.footer .f-content .contact-form {
+  padding-bottom: 90px;
+}
+}
+
+@media only screen and (max-width:750px){
+  header{
+    position: relative;
+  }
+  header ul{
+    width:100%;
+    background: #bad9e4;
+    max-height: 0px;
+    overflow: hidden;
+  }
+  .showing{
+    max-height: 44em;
+  
+  }
+  header ul li{
+    width:100%;
+  }
+  header .menu-toggle{
+    display:block;
+    position: absolute;
+    right:20px;
+    top: 20px;
+    font-size: 1.9em;
+  }
+  header .logo{
+    
+    margin-left: .5em;
+   
+   }
+   
+   
+   header .logo-text span{
+     color:#1ca5a9 ;
+   }
+   .first{
+    height:300px;
+   }
+   .first .ftext{
+    font-size: 40px;
+    padding-top: 100px;
+   }
+   .Services{
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    height: auto;
+
+   }
+}

@@ -1,0 +1,49 @@
+.pall .all{
+  
+  size: 100px;
+  text-align: center;
+  
+  padding: 30px;
+  text-size-adjust: 100px;
+  font-size:40px;
+  color:rgb(59, 77, 95);
+  
+}
+.pall .yef {
+  list-style-type: none;
+}
+ .pall .yef li img{
+  
+  width: 465px; 
+  height: 315px; 
+  padding-left: 30px;
+  padding-bottom: 50px;}
+
+.pall{
+      min-height: 100%;
+    }
+.about .ab{
+  margin: 40px;
+  padding-left: 40px;
+padding-right:99px ;
+padding-bottom: 20px;
+padding-top: 40px;
+background: white;
+
+}
+.about .ab .pr{
+  font-size: 18px;
+}
+
+.pall .yef .we{
+  font-size: 24px; 
+
+  color:rgb(59, 77, 95);
+  padding-left: 90px;
+  width: 200px; 
+  
+}
+
+.bc{
+  background-image: url('jpg');
+}
